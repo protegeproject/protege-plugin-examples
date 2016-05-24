@@ -10,7 +10,7 @@ To build and run the examples, you must have the following items installed:
 
 + Apache's [Maven](http://maven.apache.org/index.html).
 + A tool for checking out a [Git](http://git-scm.com/) repository.
-+ A Protege distribution (4.3 or higher).  The Protege 4.3.0 release is [available](http://protege.stanford.edu/products.php#desktop-protege) from the main Protege website.  Alternatively, any of the [Protege 5.0.0 beta SNAPSHOT builds](http://protege.stanford.edu/download/protege/5.0/snapshots/) are compatible with this example code.
++ A Protege distribution (4.3 or higher).  The Protege 4.3.0 and 5.0.0 releases are [available](http://protege.stanford.edu/products.php#desktop-protege) from the main Protege website. 
 
 #### Build and install example plug-ins
 
