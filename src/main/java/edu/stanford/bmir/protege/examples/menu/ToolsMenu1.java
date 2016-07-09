@@ -7,7 +7,6 @@ import javax.swing.JOptionPane;
 import org.protege.editor.owl.ui.action.ProtegeOWLAction;
 
 public class ToolsMenu1 extends ProtegeOWLAction {
-	private static final long serialVersionUID = -2896209622461162777L;
 
 	public void initialise() throws Exception {
 	}

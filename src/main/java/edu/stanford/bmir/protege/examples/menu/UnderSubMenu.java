@@ -7,7 +7,6 @@ import javax.swing.JOptionPane;
 import org.protege.editor.owl.ui.action.ProtegeOWLAction;
 
 public class UnderSubMenu extends ProtegeOWLAction {
-	private static final long serialVersionUID = 2452385628012488942L;
 
 	public void initialise() throws Exception {
 	}
