@@ -17,8 +17,8 @@
 	<dependencies>
         <dependency>
 			<groupId>edu.stanford.protege</groupId>
-            <artifactId>org.protege.editor.owl</artifactId>
-			<version>4.3.0</version>
+            <artifactId>protege-editor-owl</artifactId>
+			<version>5.0.0</version>
         </dependency>
 	</dependencies>
 
@@ -56,7 +56,7 @@
 						<Bundle-Vendor>The Protege Development Team</Bundle-Vendor>
 						<Import-Package>
 							org.apache.log4j.*;version="[1.2,2)", 
-							org.protege.editor.owl.*;version="4.3", <!-- equivalent to [4.3,infinity) -->
+							org.protege.editor.owl.*;version="5.0.0", <!-- equivalent to [4.3,infinity) -->
 							*
 						</Import-Package>
 					</instructions>
@@ -64,9 +64,9 @@
 						<execution>
 							<id>bundle-manifest</id>
 							<phase>install</phase>
-							<goals>    
+							<goals>
 								<goal>manifest</goal>
-							</goals>   
+							</goals>
 						</execution>
 					</executions>
 				</configuration>
