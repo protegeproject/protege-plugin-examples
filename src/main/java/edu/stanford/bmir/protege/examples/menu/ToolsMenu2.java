@@ -4,13 +4,9 @@ import java.awt.event.ActionEvent;
 
 import javax.swing.JOptionPane;
 
-import org.apache.log4j.Logger;
-
 import org.protege.editor.owl.ui.action.ProtegeOWLAction;
 
 public class ToolsMenu2 extends ProtegeOWLAction {
-	private static final long serialVersionUID = -5859609615256451118L;
-	public static Logger LOGGER = Logger.getLogger(ToolsMenu2.class);
 
 	public void initialise() throws Exception {
 	}

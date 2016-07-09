@@ -55,7 +55,6 @@
 						<Bundle-SymbolicName>${project.artifactId};singleton:=true</Bundle-SymbolicName>
 						<Bundle-Vendor>The Protege Development Team</Bundle-Vendor>
 						<Import-Package>
-							org.apache.log4j.*;version="[1.2,2)", 
 							org.protege.editor.owl.*;version="5.0.0", <!-- equivalent to [4.3,infinity) -->
 							*
 						</Import-Package>
