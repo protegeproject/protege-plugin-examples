@@ -15,7 +15,7 @@ public class ToolsMenu2 extends ProtegeOWLAction {
 	}
 
 	public void actionPerformed(ActionEvent event) {
-		StringBuffer message = new StringBuffer("This is the second example menu item under the Tools menu.\n");
+		StringBuilder message = new StringBuilder("This is the second example menu item under the Tools menu.\n");
 		message.append("The active ontology has ");
 		message.append(getOWLModelManager().getActiveOntology().getAxiomCount());
 		message.append(" axioms.");

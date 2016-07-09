@@ -15,7 +15,7 @@ public class ToolsMenu1 extends ProtegeOWLAction {
 	}
 
 	public void actionPerformed(ActionEvent event) {
-		StringBuffer message = new StringBuffer("This example menu item is under the Tools menu.\n");
+		StringBuilder message = new StringBuilder("This example menu item is under the Tools menu.\n");
 		message.append("The currently selected class is ");
 		message.append(getOWLWorkspace().getOWLSelectionModel().getLastSelectedClass());
 		message.append(".");

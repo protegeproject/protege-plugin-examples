@@ -15,7 +15,7 @@ public class UnderSubMenu extends ProtegeOWLAction {
 	}
 
 	public void actionPerformed(ActionEvent arg0) {
-		StringBuffer message = new StringBuffer("Yet another example menu item.\n");
+		StringBuilder message = new StringBuilder("Yet another example menu item.\n");
 		message.append("The active ontology has ");
 		message.append(getOWLModelManager().getActiveOntology().getObjectPropertiesInSignature().size());
 		message.append(" object properties.");
