@@ -4,8 +4,8 @@ import org.apache.log4j.Logger;
 import org.protege.editor.owl.ui.OWLWorkspaceViewsTab;
 
 public class ExampleWorkspaceTab2 extends OWLWorkspaceViewsTab {
+
 	private static final Logger log = Logger.getLogger(ExampleWorkspaceTab2.class);
-	private static final long serialVersionUID = -4896884982262745722L;
 
 	public ExampleWorkspaceTab2() {
 		setToolTipText("Custom tooltip text for Example Tab (2)");

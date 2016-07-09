@@ -13,10 +13,13 @@ import org.protege.editor.owl.model.event.OWLModelManagerChangeEvent;
 import org.protege.editor.owl.model.event.OWLModelManagerListener;
 
 public class Metrics extends JPanel {
-    private static final long serialVersionUID = -2017045836890114258L;
+
     private JButton refreshButton = new JButton("Refresh");
+
     private JLabel textComponent = new JLabel();
+
     private OWLModelManager modelManager;
+
 
     private ActionListener refreshAction = new ActionListener() {
         public void actionPerformed(ActionEvent e) {
