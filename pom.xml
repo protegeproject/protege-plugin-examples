@@ -60,15 +60,6 @@
 							*
 						</Import-Package>
 					</instructions>
-					<executions>
-						<execution>
-							<id>bundle-manifest</id>
-							<phase>install</phase>
-							<goals>
-								<goal>manifest</goal>
-							</goals>
-						</execution>
-					</executions>
 				</configuration>
             </plugin>
             
