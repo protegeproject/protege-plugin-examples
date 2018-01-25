@@ -1,8 +1,6 @@
 # protege-plugin-examples
 
-This repository contains example code for developing a tab, view, or menu plug-in for the Protege Desktop ontology editor (*versions 4.3 and higher*).  The Maven POM file in the top-level directory demonstrates one possible method for packaging plug-in code into the required OSGi bundle format using the [Maven Bundle Plugin](http://felix.apache.org/site/apache-felix-maven-bundle-plugin-bnd.html).
-
-If you're developing a plug-in for the earlier Protege Desktop 3.x series, please see the [p3-plugin-example-code](https://github.com/protegeproject/p3-plugin-example-code) repository instead.
+This repository contains example code for developing a tab, view, or menu plug-in for the Protege Desktop ontology editor (*versions 5.0.0 and higher*).  The Maven POM file in the top-level directory demonstrates one possible method for packaging plug-in code into the required OSGi bundle format using the [Maven Bundle Plugin](http://felix.apache.org/site/apache-felix-maven-bundle-plugin-bnd.html).
 
 #### Prerequisites
 
@@ -10,7 +8,7 @@ To build and run the examples, you must have the following items installed:
 
 + Apache's [Maven](http://maven.apache.org/index.html).
 + A tool for checking out a [Git](http://git-scm.com/) repository.
-+ A Protege distribution (4.3 or higher).  The Protege 4.3.0 and 5.0.0 releases are [available](http://protege.stanford.edu/products.php#desktop-protege) from the main Protege website. 
++ A Protege distribution (5.0.0 or higher).  The Protege 5.2.0 release is [available](http://protege.stanford.edu/products.php#desktop-protege) from the main Protege website. 
 
 #### Build and install example plug-ins
 
